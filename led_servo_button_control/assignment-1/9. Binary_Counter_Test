@@ -1,0 +1,20 @@
+from gpiozero import LED
+from time import sleep
+led1 = LED(5)
+led2 = LED(6)
+led3 = LED(13)
+led4 = LED(19)
+led5 = LED(26)
+
+while True:
+    led1.toggle()
+    sleep(0.1)
+    led2.toggle()
+    sleep(0.3)
+    led3.toggle()
+    sleep(0.5)
+    led4.toggle()
+    sleep(0.7)
+    led5.toggle()
+    sleep(0.9)
+    
